@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+}
+
+.not-loaded .flowers {
+  opacity: 0;
+}
+
+.flowers {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
